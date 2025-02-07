@@ -5,10 +5,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/icexin/brpc-go"
-	bhttp "github.com/icexin/brpc-go/protocol/brpc-http"
-	bstd "github.com/icexin/brpc-go/protocol/brpc-std"
-	bgrpc "github.com/icexin/brpc-go/protocol/grpc"
+	"github.com/sinomiko/brpc-go"
+	bhttp "github.com/sinomiko/brpc-go/protocol/brpc-http"
+	bstd "github.com/sinomiko/brpc-go/protocol/brpc-std"
+	bgrpc "github.com/sinomiko/brpc-go/protocol/grpc"
 	"github.com/soheilhy/cmux"
 	"google.golang.org/grpc"
 )

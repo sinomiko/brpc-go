@@ -12,7 +12,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/icexin/brpc-go/protocol/brpc-std/metapb"
+	"github.com/sinomiko/brpc-go/protocol/brpc-std/metapb"
 	"github.com/keegancsmith/rpc"
 	"google.golang.org/protobuf/proto"
 )

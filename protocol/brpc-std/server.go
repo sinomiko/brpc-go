@@ -9,8 +9,8 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"github.com/icexin/brpc-go"
-	"github.com/icexin/brpc-go/protocol/brpc-std/metapb"
+	"github.com/sinomiko/brpc-go"
+	"github.com/sinomiko/brpc-go/protocol/brpc-std/metapb"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 )

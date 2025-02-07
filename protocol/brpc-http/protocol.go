@@ -1,7 +1,7 @@
 package bhttp
 
 import (
-	"github.com/icexin/brpc-go"
+	"github.com/sinomiko/brpc-go"
 	"google.golang.org/grpc"
 )
 

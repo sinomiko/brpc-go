@@ -6,8 +6,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/icexin/brpc-go"
-	"github.com/icexin/brpc-go/examples/echo"
+	"github.com/sinomiko/brpc-go"
+	"github.com/sinomiko/brpc-go/examples/echo"
 )
 
 type echoService struct {

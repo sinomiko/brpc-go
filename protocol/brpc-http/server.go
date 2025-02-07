@@ -9,7 +9,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/icexin/brpc-go"
+	"github.com/sinomiko/brpc-go"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"

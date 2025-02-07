@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/icexin/brpc-go"
-	"github.com/icexin/brpc-go/examples/echo"
-	bstd "github.com/icexin/brpc-go/protocol/brpc-std"
+	"github.com/sinomiko/brpc-go"
+	"github.com/sinomiko/brpc-go/examples/echo"
+	bstd "github.com/sinomiko/brpc-go/protocol/brpc-std"
 )
 
 func main() {

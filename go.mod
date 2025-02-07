@@ -1,4 +1,4 @@
-module github.com/icexin/brpc-go
+module github.com/sinomiko/brpc-go
 
 go 1.18
 

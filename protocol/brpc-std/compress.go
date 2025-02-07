@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 
 	"github.com/golang/snappy"
-	"github.com/icexin/brpc-go/protocol/brpc-std/metapb"
+	"github.com/sinomiko/brpc-go/protocol/brpc-std/metapb"
 	"github.com/pierrec/lz4"
 )
 

@@ -5,7 +5,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/icexin/brpc-go"
+	"github.com/sinomiko/brpc-go"
 	"github.com/keegancsmith/rpc"
 	"google.golang.org/grpc"
 )

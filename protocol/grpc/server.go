@@ -3,7 +3,7 @@ package grpc
 import (
 	"net"
 
-	"github.com/icexin/brpc-go"
+	"github.com/sinomiko/brpc-go"
 	"google.golang.org/grpc"
 )
 
