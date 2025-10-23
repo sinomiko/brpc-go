@@ -99,7 +99,9 @@ func (s *server) serveRequest(srv *service, method *grpc.MethodDesc, r *http.Req
 		}
 		return nil
 	}
-	resp, err := method.Handler(srv.srv, r.Context(), decFunc, s.opts.Interceptor)
+	// put client ip into context
+	ctx := context.WithValue(r.Context(), "client_ip", r.RemoteAddr)
+	resp, err := method.Handler(srv.srv, ctx, decFunc, s.opts.Interceptor)
 	if err != nil {
 		return nil, err
 	}
